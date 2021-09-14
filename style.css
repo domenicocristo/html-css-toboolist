@@ -34,7 +34,7 @@ nav button {
     margin-right: 10px;
     padding: 5px;
     border: 0;
-    border-radius: 6%;
+    border-radius: 7px 7px 7px 7px;
 }
 
 #buttom-blu {
@@ -44,5 +44,23 @@ nav button {
 
 #buttom-white {
     background-color: white;
-    color: black;
+    color: rgb(70, 70, 70);
+}
+
+main {
+    color: rgb(70, 70, 70);
+    padding-top: 40px;
+}
+
+.check {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.check-logo {
+    color: green;
+    border: solid 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 50%;
 }
