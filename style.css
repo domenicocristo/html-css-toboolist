@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(224, 224, 224);
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+}
+
+header img {
+    background-color: white;
+}
+
+header h1 {
+    display: inline;
+    background-color: white;
+    font-family: roboto;
+    font-size: 45px;
+    margin: 6px;
+    position: relative;
+    bottom: 8px;
+}
