@@ -6,6 +6,7 @@
     font-family: roboto;
 }
 
+/* Intestazione */
 header {
     background-color: white;
     padding: 15px;
@@ -23,6 +24,7 @@ header h1 {
     position: relative;
     bottom: 8px;
 }
+/* /Intestazione */
 
 #container {
     padding-top: 4%;
@@ -30,6 +32,7 @@ header h1 {
     padding-right: 20%;
 }
 
+/* Bottoni */
 nav {
     background-color: white;
     padding-top: 15px;
@@ -54,23 +57,23 @@ nav button {
     background-color: rgb(230, 230, 230);
     color: rgb(70, 70, 70);
 }
+/* /Bottoni */
 
+/* Contenuto */
 main {
     color: rgb(70, 70, 70);
     padding-top: 2px;
 }
 
-main section div {
+.check {
     padding-left: 50px;
     background-color: white;
     padding-bottom: 15px;
-}
-
-.check {
     padding-top: 15px;
     font-size: 20px;
 }
 
+/* Check loghi */
 .check-logo {
     background-color: white;
     color: rgb(2, 189, 2);
@@ -79,12 +82,7 @@ main section div {
     padding-right: 3px;
     border-radius: 50%;
 }
-
-main section h2 {
-    padding-left: 50px;
-    background-color: white;
-    padding-top: 30px;
-}
+/* /Check loghi */
 
 .no-check-logo {
     background-color: white;
@@ -95,6 +93,13 @@ main section h2 {
     border-radius: 50%;
 }
 
+.header-body {
+    padding-left: 50px;
+    background-color: white;
+    padding-top: 30px;
+}
+
+/* Parole evidenziate finali */
 .editorial {
     color: white;
     background-color: rgba(0, 174, 255, 0.87);
@@ -142,3 +147,6 @@ main section h2 {
     padding: 5px;
     border-radius: 10px 10px 10px 10px;
 }
+/* /Parole evidenziate finali */
+
+/* /Contenuto */
