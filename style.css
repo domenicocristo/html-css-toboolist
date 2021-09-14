@@ -73,7 +73,7 @@ main section div {
 
 .check-logo {
     background-color: white;
-    color: green;
+    color: rgb(2, 189, 2);
     border: solid 2px;
     padding-left: 3px;
     padding-right: 3px;
@@ -88,9 +88,57 @@ main section h2 {
 
 .no-check-logo {
     background-color: white;
-    color: red;
+    color: rgb(255, 0, 0);
     border: solid 2px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 50%;
+}
+
+.editorial {
+    color: white;
+    background-color: rgba(0, 174, 255, 0.87);
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.q1goals {
+    color: white;
+    background-color: rgb(156, 63, 156);
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.recruiting {
+    color: white;
+    background-color: green;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.mobile {
+    color: white;
+    background-color: orange;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.website {
+    color: white;
+    background-color: rgb(214, 69, 214);
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sales {
+    color: white;
+    background-color: rgba(130, 201, 65, 0.87);
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
 }
